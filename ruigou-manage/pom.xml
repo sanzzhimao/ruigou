@@ -12,6 +12,7 @@
     <artifactId>ruigou-manage</artifactId>
     <packaging>pom</packaging>
     <name>manage</name>
+
     <modules>
         <module>ruigou-manage-pojo</module>
         <module>ruigou-manage-service</module>
