@@ -16,18 +16,5 @@ public class UserController {
         System.out.println("to user..");
         return "regist";
     }
-    @RequestMapping("/regist")
-    public String regist(User user, Model model){
-        System.out.println("regist..");
-        userService.regist(user);
-        return "regist";
-    }
-    @RequestMapping("/find")
-    public String find(int id, Model model){
-        System.out.println("find..");
-        System.out.println(id);
-        User user=userService.findUser(id);
-        System.out.println(user);
-        return "regist";
-    }
+
 }

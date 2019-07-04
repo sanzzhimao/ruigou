@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ruigou-rest" />
+        <module name="ruigou-manage-web" />
         <module name="ruigou-manage-mapper" />
         <module name="ruigou-common" />
-        <module name="ruigou-manage-web" />
+        <module name="ruigou-portal" />
         <module name="ruigou-manage-service" />
         <module name="ruigou-manage-pojo" />
       </profile>
@@ -21,6 +23,8 @@
       <module name="ruigou-manage-service" target="1.7" />
       <module name="ruigou-manage-web" target="1.7" />
       <module name="ruigou-parent" target="1.7" />
+      <module name="ruigou-portal" target="1.7" />
+      <module name="ruigou-rest" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

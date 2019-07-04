@@ -33,9 +33,7 @@
         <!-- 加载mybatis的全局配置文件 -->
         <property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
     </bean>
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.dmsd.dao" />
-    </bean>
+
     <!-- mapper扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 扫描包路径，如果需要扫描多个包，中间使用半角逗号隔开 -->
